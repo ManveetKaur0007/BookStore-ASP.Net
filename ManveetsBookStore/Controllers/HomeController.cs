@@ -1,4 +1,5 @@
 ﻿using ManveetsBookStore.Models;
+using ManveetsBookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
