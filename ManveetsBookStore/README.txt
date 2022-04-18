@@ -10,7 +10,7 @@ New Project ASP.NET Core Web App(Model-View-Controller)
 AUTHENTICATION TYPE IS INDIVIDUAL ACCOUNTS!!
 
 Made the base of the project... the major difference between this and the older project was this one had a folder named AREAS.
-When the project was run, a local host with the URL https://localhost:44379/ was created.
+When the project was run, a local host with the URL https://localhost:44344/ was created.
 The code for "RESISTER" and "LOG IN" pages were already there. 
 
 Always "CLAEAN" and "BUILD" the file before running it everytime.
