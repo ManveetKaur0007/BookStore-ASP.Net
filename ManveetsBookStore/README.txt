@@ -87,7 +87,7 @@ Ran the WebPage and see if there is any errors or no.
 01:18AM
 edited the .json file to make the changes as required
 add-migration AddDefaultIdentityMigration
-20220325052605_AddDefaultIdentityMigration.cs
+20220418214102_AddDefaultIdentityMigration
 update-database
 
 add-migration AddCategoryToDb
