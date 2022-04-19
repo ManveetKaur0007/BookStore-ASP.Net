@@ -182,3 +182,24 @@ Ran the webisite once before uploding it
 11:22PM
 Staring the Part 3.1
 
+PM> add-migration AddProductToDb
+Build started...
+Build failed.
+
+tried many times but could not find the reason for errors and then I build the project
+18 errors
+corrected each error
+and then again tried to apply the migration but failed 
+build again and found one more error
+
+I was about to get panic attack if it would have failed again but 
+luckly i saw this command
+PM> add-migration AddProductToDb
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+
+!!THANK GOD!!
+11:47PM
+20220419034436_AddProductToDb
+
