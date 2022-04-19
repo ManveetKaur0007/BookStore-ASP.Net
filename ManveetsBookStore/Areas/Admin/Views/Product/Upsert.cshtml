@@ -141,7 +141,7 @@
         @if (Model.Product.Id != 0)
         {
             <div class="col-3 offset-1 pt-4">
-                <img src="@Model.Product.ImageUrl" width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+                <img src="@Model.Product.ImageUrl" width="100" style="border-radius:5px; border:1px solid #bbb9b9" />
             </div>
         }
     </div>
@@ -153,20 +153,20 @@
 
     <script>
 
-    tinymce.init({
-        selector: 'textarea',
-        plugins: 'lists',
-        menubar: 'file edit format'
-    });
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
 
 
-    function validateInput() {
-        if (document.getElementById("uploadBox").value == "") {
-            swal("Error", "Please select an image", "error");
-            return false;
+        function validateInput() {
+            if (document.getElementById("uploadBox").value == "") {
+                swal("Error", "Please select an image", "error");
+                return false;
+            }
+            return true;
         }
-        return true;
-    }
 
     </script>
 }
