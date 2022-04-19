@@ -211,3 +211,13 @@ Build succeeded.
 Done
 
 verified the table made in SQL Explorer
+
+PM> add-migration AddValidationToProduct
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+
+PM> update-database
+Build started...
+Build succeeded.
+Done.
