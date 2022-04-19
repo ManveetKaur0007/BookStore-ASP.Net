@@ -179,9 +179,13 @@ Checked my website for any errors
 Cleaned and Bulid the project
 Ran the webisite once before uploding it 
 
-11:22PM
-Staring the Part 3.1
+************************
+************************
+!!PART 3.1!!
+************************
+************************
 
+11:22PM
 PM> add-migration AddProductToDb
 Build started...
 Build failed.
@@ -221,3 +225,12 @@ PM> update-database
 Build started...
 Build succeeded.
 Done.
+
+Rebuild the solution and uploaded to github
+========== Rebuild All: 4 succeeded, 0 failed, 0 skipped ==========
+
+************************
+************************
+!!PART 3.2!!
+************************
+************************
