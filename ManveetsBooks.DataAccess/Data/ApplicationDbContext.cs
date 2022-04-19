@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ManveetsBookStore.DataAccess.Data
+namespace ManveetsBooks.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -14,5 +14,7 @@ namespace ManveetsBookStore.DataAccess.Data
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<CoverType> CoverTypes { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
