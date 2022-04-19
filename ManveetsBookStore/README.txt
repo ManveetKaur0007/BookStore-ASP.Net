@@ -336,3 +336,14 @@ Bulid and Cleaned the project
 ========== Build All: 4 succeeded, 0 failed, 0 skipped ==========
 ========== Clean: 4 succeeded, 0 failed, 0 skipped ==========
 
+************************
+************************
+!!PART 5!!
+************************
+************************
+In this part I am asked to submit the link of my GitHub file of the project 
+Made the Project Public.
+
+Going to try to Publish my Web App using this link to study from
+https://docs.microsoft.com/en-US/visualstudio/deployment/quickstart-deploy-aspnet-web-app?view=vs-2019&tabs=azure
+....given by prof....
