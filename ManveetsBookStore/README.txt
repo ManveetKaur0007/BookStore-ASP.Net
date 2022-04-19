@@ -1,11 +1,18 @@
 ﻿﻿﻿Author Name: Manveet Kaur
 Program Name: ManveetKaursBookStore
 Student ID: W0782002
-Date created: 2022/03/22
+Date created: 2022/04/18
 Purpose of the project: To learn about creating ASP.NET Core MVC application
 
-2022/03/22
-05:00PM
+************************
+************************
+!!PART 1!!
+************************
+************************
+
+2022/04/18
+04:43PM
+Making the project 4th time as I got errors 3 times.
 New Project ASP.NET Core Web App(Model-View-Controller)
 AUTHENTICATION TYPE IS INDIVIDUAL ACCOUNTS!!
 
@@ -16,51 +23,59 @@ The code for "RESISTER" and "LOG IN" pages were already there.
 Always "CLAEAN" and "BUILD" the file before running it everytime.
 Just a safe side!!
 
-05:10PM
+04:47PM
 Created a new GitHub repository and pushed the data.
 
-05:33PM
+04:52PM
+Edited the startup as it was asked.
 Added a new theme using the bootstrap.css which I downloaded from https://bootswatch.com/
 I picked Sketchy as my theme.
+
+04:55PM
 Made changes in the site.css with the file provided.
+
+04:58PM
 made few changes in _Layout file and _LoginPartial file to work with the theme
 Updated and build the project. Ran the project to review the changes.
 IT WORKED!!
+
+05:02PM
 added given links from the provided links of stylesheets and scripts to the _Layout file .
 
-05:40PM
+05:04PM
 Added a dropdown to the NavBar
 
-06:07PM
+05:07PM
 Added three new class library which are
 ManveetKaursBooks.DataAccess
 ManveetKaursBooks.Models
 ManveetKaursBooks.Utility
 
 deleted the auto generated classes and installed new packages in .DataAccess
+
+05:13PM
 Microsoft.AspNetCore.Identity.EntityFrameworkCore with Version=5.0.14
 Microsoft.EntityFrameworkCore.Relational with Version=5.0.14
 Microsoft.EntityFrameworkCore.SqlServer with Version=5.0.14
 
+05:28PM
 Changed the location of the Data file to .DataAccess and deleted few files.
 
-06:20PM
 Changed the location of the Model file from base project to .Models class library
 Added the project references to the main project of .DataAccess and .Model
 Made changes in the file.
 BULID SUCCEEDED!!!!
 
-06:34PM
 !!!GOT ERRORS!!!
 using the bildin-fuctions the errors were removed.
 
-06:39PM
+05:30PM
 Created a static details class called SD.cs in .Utility
 modified the properties of the class.
 Added the project references to the main project of all the class libraries.
 Added the project references to the .DataAccess of .Utility and .Model
 
-06:44PM
+05:34PM
 In the Areas folder added a new Area named 'Customer'
 changed the route in Startup.cs. Moved and eddited few files.
 When the page was run, my theme was removed and only welcome screen was shown.
@@ -68,73 +83,102 @@ Located _viewImport and _ViewStart to customer area.
 
 PAGE WORKES PROPERLY!!
 
-06:51PM
+05:37PM
 In the Areas folder added a new Area named 'Admin'
 Edited the folder. 
 Added brief info in ReadMe.txt which i will elaborate in the morning
 Udated the GitHub repo.
 
-2022/03/23
-11:28AM
-Explained each part in README.txt so that I can remember how and what I did in this project.
-Ran the page one last time before showing it to professor and it works!!
+************************
+************************
+!!PART 2!!
+************************
+************************
 
-2022/03/25
-01:16AM
+05:39PM
 Staring with Part 2 of Assignment 2. Updating the README.txt file and building the solution before working on the assignment.
 Ran the WebPage and see if there is any errors or no.
-
-01:18AM
 edited the .json file to make the changes as required
+
+05:41PM
 add-migration AddDefaultIdentityMigration
 20220418214102_AddDefaultIdentityMigration
 update-database
 
+05:49PM
+Added the category class and added data to it
+
+6:00PM
 add-migration AddCategoryToDb
-
-2022/03/28
-11:50AM
-added 4 different repos and thier interfaces
-CategoryRepository.cs, Repository.cs,SP_Call.cs and UnitOfWork.cs
-and there repective interfaces where of same name with I in front of them.
-
-1:20PM
-Added data to the repos creted as per requirement so that the project should run.
-few of the files are not given due to which the assignment cannot be completed.!
-
-2022/03/29
-Getting error with IUnitOfWork.cs and UnitOfWork.cs which is why I cannot continue the project
-Asking Prof for help!!
-
-2022/03/30
-added interface in front of the errors and the webpage works fine.
-Bulid the solution and had no errors
-Build started...
-========== Build: 0 succeeded, 0 failed, 4 up-to-date, 0 skipped ==========
+but the migration was empty,
+Added a line in the ApplicationDbContext in .DataAccess and then added the migration again
+this time there was data and when I verified the table, I could see it in the SQL Explorer
+Updated the Database
 
 PM> update-database
 Build started...
 Build succeeded.
 Done.
 
-Editted the readmen file and uploaed to GitHub
+06:20PM 
+Took a break!!!!
+
+07:57PM
+Back to coding....
+Created a new folder in .DataAccess named Repository and it had another folder named IRepositroy
+
+In IRepository 4 Interface were created naming
+ICategoryRepository.cs
+Repository.cs
+SP_Call.cs
+UnitOfWork.cs
+
+each interface had indiviual Classes in Repository file naming:
+CategoryRepository.cs
+Repository.cs
+SP_Call.cs
+UnitOfWork.cs
+
+08:08PM
+added a line in Startup which will refer the file UnitOfWork and IUnitOfWork
+Cleaned the solution and build it.
+
+Build started...
+========== Build: 0 succeeded, 0 failed, 4 up-to-date, 0 skipped ==========
+
+08:14PM
+In the main project, Areas<Admin<Controllers
+CategoryController was created and edited as expected.
+Reviwed the website given by prof. to correct my previous errors.
+
+08:15PM
+In the same admin folder a new folder was created and named Category
+Added the new Index file and added data in it to make the site apealing
+
+TOOK DINNER BREAK!!!
+09:48PM
+Made the changes in the navigation bar in layout file so with the click the website opens.
+
+09:57PM
+added the new Js file naming category.js 
+
+10:04PM
+A new Category Upsert View page is created where I can add new categories.
+did some editing.
+
+10:04PM
+In the main project Views<Shared
+_CreateAndBackToList and _EditAndBackToList button was created 
+did some major edditing in many files to enable those buttons 
+Added the validation
+Added the alert message to ask the confirm of deleting the category
+When Ok option is selected the new dialog box is displayed on top-right corner of the website saying the data has been deleted.
+
+10:13PM
+Checked my website for any errors
+Cleaned and Bulid the project
+Ran the webisite once before uploding it 
 
 
-2022/04/05
-01:45PM
-improving previous errors
+Staring the Part 3
 
-02:04PM
-made same nessary changes to make my site apealing
-
-02:37PM
-changes and now moving forward
-
-02:57PM
-_Layout changes
-
-03:36PM
-AFTER LUNCH BREAK
-category.js
-
-Part 2 done
