@@ -22,8 +22,4 @@
     <ProjectReference Include="..\ManveetsBooks.Utility\ManveetsBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\images\products\" />
-  </ItemGroup>
-
 </Project>
