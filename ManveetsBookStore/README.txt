@@ -136,3 +136,5 @@ _Layout changes
 03:36PM
 AFTER LUNCH BREAK
 category.js
+
+Part 2 done
