@@ -82,7 +82,7 @@ namespace ManveetsBooks.Areas.Admin.Controllers
                             System.IO.File.Delete(imagePath);
                         }
                     }
-                    using (FileStream filesStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                    using (FileStream filesStreams = new(Path.Combine(uploads, fileName + extension), FileMode.Create))
                     {
                         files[0].CopyTo(filesStreams);
                     }
