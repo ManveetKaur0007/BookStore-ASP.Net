@@ -245,11 +245,19 @@ Before starting the next part Cleaned and Bulid the Solution one more to check f
 ========== Build All: 4 succeeded, 0 failed, 0 skipped ==========
 
 12:40AM
+Added Product Controller and CoverType Controller in the Areas>Admin>Controller to perform the CRUD operations.
+Added the IWebHostEnironment call and its using statement
 
 12:41AM
-added CoverType.js, product.js
+Create a ViewModel in the Models project to hold the Product object and select list for Category and CoverType
+Modified the ProductVM class so it is public and installed the .Mvc.ViewFeatures pakage.
 
 12:43AM
+Added an Index View, Copied the data from The previous file and editied it a bit.
+added CoverType.js, product.js
+Modified the _Layout.cshtml to add a new link to Product.
+Run the application and I could see the Product Table 
+
 Part 3.2 done
 Jumping to part part 3.3
 
@@ -260,36 +268,71 @@ Jumping to part part 3.3
 ************************
 
 12:47AM
-layout
+Created the Upsert .cs in Products and Modify in Areas>Admin>Views>Product
+Added a rich text are inside Product with tiny.cloud
 
 12:48AM
+added the new Product folder and this folder will have images of each book that will be displayed on the homepage.
+In the ProductController congigured the Product Uperst Post action
 
 01:07AM
+Checked for the errors.
+Ran the application and test
+My Index page is not working getting errors
 
 01:15AM
-
-01:27AM
-
-01:45AM
+added the data in the ReadMe file.
 
 01:49AM
+Did the changes as much I could do but my Index page would still not work.
+Its late night right now. Planning on doing it tommorow.
+would be conutinuing my project in the morning.
+!!Good Night!!
+
+************************
+************************
+!!PART 4!!
+************************
+************************
+Had a wonderful night and after my routine sat on the table and working on the project.
 
 12:49PM
-verified each file in project and 
+verified each file in project and checked for any errors
+In the main project, Admin<Controller
+found few errors and fixed it
 
 12:54PM
-
-12:58PM
+in the Area<Customer<View and in Admin<View
+there were few lines missing and with the referance of the link provided by the prof.
+corrected the files
 
 01:03PM
+in the View folder there was an error in the index page
+fixed it!!!
 
 01:14PM
+Accidently added the ProductRepository.cs in the IRepository rather than in outer folder with other classes
+As the File location changed, there had to be changes in the file as well
+
+!! Had a emergency as I had to go to the Medical Clinic at the college for personal reason!!
+would return back as soon as possible and work on project....
 
 02:57PM
-
-03:03PM
+The main index page was not working propetrly had I was asked to display Product database on the Home Page
+but once I checked evry file once again and build the project. I did not see any server errors.
 
 03:28PM
+Build the project with no errors.
+Logged into the site and added the category list and Cover type list
+Using the refernce of the other website, I gathered information about the three books
+Added the database in my application
+I could see the 3 books together displaying the information as per the need.
+The website works perfectly fine
 
 03:49PM
+Added the Outside Readme file so I know what this project is about.
+Added alot of the data in the README.txt file to elaborate my coding.
+Bulid and Cleaned the project
+========== Build All: 4 succeeded, 0 failed, 0 skipped ==========
+========== Clean: 4 succeeded, 0 failed, 0 skipped ==========
 
