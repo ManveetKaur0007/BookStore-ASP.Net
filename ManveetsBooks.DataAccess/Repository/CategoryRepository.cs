@@ -1,4 +1,4 @@
-﻿using ManveetsBookStore.DataAccess.Data;
+﻿using ManveetsBooks.DataAccess.Data;
 using ManveetsBooks.DataAccess.Repository.IRepository;
 using ManveetsBooks.Models;
 using System;

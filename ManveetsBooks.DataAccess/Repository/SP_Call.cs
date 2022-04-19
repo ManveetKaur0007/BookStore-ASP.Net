@@ -1,4 +1,4 @@
-﻿using ManveetsBookStore.DataAccess.Data;
+﻿using ManveetsBooks.DataAccess.Data;
 using ManveetsBooks.DataAccess.Repository.IRepository;
 using Dapper;
 using Microsoft.Data.SqlClient;
