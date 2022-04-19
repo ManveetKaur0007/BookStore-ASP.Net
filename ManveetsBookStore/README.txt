@@ -236,3 +236,5 @@ Rebuild the solution and uploaded to github
 ************************
 
 ========== Rebuild All: 4 succeeded, 0 failed, 0 skipped ==========
+
+WebPage works Perfect adding some data to the webiste to reflect 3 books
