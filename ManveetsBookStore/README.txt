@@ -235,6 +235,61 @@ Rebuild the solution and uploaded to github
 ************************
 ************************
 
-========== Rebuild All: 4 succeeded, 0 failed, 0 skipped ==========
+2022/04/19
+12:09AM
+Updated the Readme file to eleborate what I have been doing in this assignment.
+staring the part 3.2
 
-WebPage works Perfect adding some data to the webiste to reflect 3 books
+
+Before starting the next part Cleaned and Bulid the Solution one more to check for any errors
+========== Build All: 4 succeeded, 0 failed, 0 skipped ==========
+
+12:40AM
+
+12:41AM
+added CoverType.js, product.js
+
+12:43AM
+Part 3.2 done
+Jumping to part part 3.3
+
+************************
+************************
+!!PART 3.3!!
+************************
+************************
+
+12:47AM
+layout
+
+12:48AM
+
+01:07AM
+
+01:15AM
+
+01:27AM
+
+01:45AM
+
+01:49AM
+
+12:49PM
+verified each file in project and 
+
+12:54PM
+
+12:58PM
+
+01:03PM
+
+01:14PM
+
+02:57PM
+
+03:03PM
+
+03:28PM
+
+03:49PM
+
