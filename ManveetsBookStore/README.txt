@@ -200,6 +200,14 @@ Build succeeded.
 To undo this action, use Remove-Migration.
 
 !!THANK GOD!!
+
 11:47PM
 20220419034436_AddProductToDb
 
+11:49PM
+PM> update-database
+Build started...
+Build succeeded.
+Done
+
+verified the table made in SQL Explorer
