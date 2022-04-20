@@ -354,5 +354,10 @@ Not sure about publishing .. would ask prof for help!!!
 did few changes in my file so that is different. I did take help from the Website given But I made few changes at the lst momment to 
 make my web page unique.
 
-trying to publish my Webpage!!!
+Trying to publish my Webpage!!!
+
+03:37PM
+Publish Succeded
+https://manveetsbookstore20220420152218.azurewebsites.net/
+Rebulid and Cleaned my project before submitting the link
 
