@@ -348,3 +348,9 @@ Going to try to Publish my Web App using this link to study from
 https://docs.microsoft.com/en-US/visualstudio/deployment/quickstart-deploy-aspnet-web-app?view=vs-2019&tabs=azure
 ....given by prof....
 Not sure about publishing .. would ask prof for help!!!
+
+2022/04/20
+02:45PM
+did few changes in my file so that is different. I did take help from the Website given But I made few changes at the lst momment to 
+make my web page unique
+
