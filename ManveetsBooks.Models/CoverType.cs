@@ -12,7 +12,7 @@ namespace ManveetsBooks.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        [Display(Name = "Cover Type")]
+        [Display(Name = "Cover Type of the Book")]
         [MaxLength(50)]
         public string Name { get; set; }
     }
